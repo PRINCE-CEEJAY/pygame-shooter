@@ -13,9 +13,9 @@ class InputManager:
                 self.quit = True
 
             if event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_a:
+                if event.key == pygame.K_LEFT:
                     self.left = True
-                if event.key == pygame.K_d:
+                if event.key == pygame.K_RIGHT:
                     self.right = True
                 if event.key == pygame.K_SPACE:
                     self.jump = True

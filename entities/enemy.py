@@ -1,7 +1,7 @@
 import pygame
 from settings import *
-from systems import Collision
-from systems import Physics
+from systems.collision import Collision
+from systems.physics import Physics
 
 class Enemy:
     def __init__(self, x, y):
